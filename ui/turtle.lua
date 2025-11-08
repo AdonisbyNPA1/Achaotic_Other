@@ -245,7 +245,7 @@ function library:Window(name)
         end
         pastSliders[winCount] = false
 	
-	return Label
+	return labelfunctions
     end
     function functions:Toggle(text, on, callback)
         local callback = callback or function() end
